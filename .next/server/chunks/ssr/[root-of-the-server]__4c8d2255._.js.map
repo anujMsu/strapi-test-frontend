@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Abcom/Desktop/strapi/strapi-frontend/app/Navbar.jsx"],"sourcesContent":["import React from 'react'\r\nimport Link from 'next/link';\r\n\r\nconst Navbar = () => {\r\n  return (\r\n    <div>\r\n        <p><Link href=\"/\">Home</Link></p>\r\n        <p><Link href=\"/blog\">Articles</Link></p>\r\n        <p><Link href=\"/about\">About</Link></p>\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default Navbar"],"names":[],"mappings":";;;;AAAA;AACA;;;;AAEA,MAAM,SAAS;IACb,qBACE,8OAAC;;0BACG,8OAAC;0BAAE,cAAA,8OAAC,4JAAA,CAAA,UAAI;oBAAC,MAAK;8BAAI;;;;;;;;;;;0BAClB,8OAAC;0BAAE,cAAA,8OAAC,4JAAA,CAAA,UAAI;oBAAC,MAAK;8BAAQ;;;;;;;;;;;0BACtB,8OAAC;0BAAE,cAAA,8OAAC,4JAAA,CAAA,UAAI;oBAAC,MAAK;8BAAS;;;;;;;;;;;;;;;;;AAG/B;uCAEe","debugId":null}},
+    {"offset": {"line": 84, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Abcom/Desktop/strapi/strapi-frontend/app/page.js"],"sourcesContent":["import Image from \"next/image\";\nimport Navbar from \"./Navbar\";\n\nexport default function Home() {\n  return (\n    <div>\n      <h2>STRAPI FRONT END</h2>\n      <Navbar />\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;AACA;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;0BACJ,8OAAC,8GAAA,CAAA,UAAM;;;;;;;;;;;AAGb","debugId":null}}]
+}
