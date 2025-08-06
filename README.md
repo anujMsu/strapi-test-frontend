@@ -1,3 +1,3 @@
 # strapi-test-frontend
 
-This is the frontend repository of strapi.
+This is the test frontend repository of strapi.
